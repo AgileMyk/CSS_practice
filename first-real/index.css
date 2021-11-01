@@ -1,18 +1,19 @@
 .header {
     width: 100vw;
-    height: 500px;
+    height: 450px;
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
 }
 
-.logo {
+#logo {
     display: flex;
     justify-content: flex-start;
     opacity: 40%;
     height: 100px;
     width: auto;
     margin-left: 8em;
+
 }
 
 .top-nav {
@@ -21,13 +22,14 @@
 
 .top {
     display: flex;
-    gap: 50%;
+    gap: 40%;
 }
 
 .top-list {
     justify-content: space-between;
     word-spacing: 10px;
     color: white;
+    
 }
 
 a:hover, a:visited, a:link, a:active {
@@ -55,11 +57,23 @@ p {
 }
 
 .p-n-img {
-    width: 100vw;
+    /*width: 100vw;*/
     display: flex;
+   flex-direction: ;
     flex-direction: row;
-    gap: 4em;
-    margin-left: 8em;
+    gap: 9em;
+    margin-left: 8em
+}
+
+.pnimg-r {
+display: flex;
+justify-content: flex-start;
+}
+
+.pnimg-l {
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
 }
 
 .desc   {
@@ -67,16 +81,159 @@ p {
     text-align: center
 }
 
-.earth {
-    justify-content: flex-end
+.earth  {
+     height: auto;
+     width: auto;
+     max-width: 420px;
+     max-height: 300px;
+     margin-top: 3em;
 }
 
 button {
     align-items: ;
+    border: none;
 }
 
 .sign-up {
     background-color: #3882f6;
     color: #FFFFFF;
     border-radius: 10px;
+}
+
+.call   {
+    background-color: hsl(0, 0, 90%);
+    width: 100vw;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.mid-header {
+    background-color: inherit;
+    display: flex;
+    height: 90px;
+}
+
+.mid-text   {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 90px;
+    line-height: 90px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.five-links {
+    display: flex;
+    background-color: inherit;
+    height: 260px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap:86px;
+    justify-content: center;
+}
+
+.oneoffive {
+    display: flex;
+    flex-direction: column;
+    width: 125px;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    width: auto;
+    
+}
+
+.imgs {
+height: 80px;
+width: auto;
+border: 2px solid #3882f6;
+border-radius: 11px;    
+}
+
+#alpha-alpha {
+    width: 120px;
+    height: 80px;
+}
+
+#alph, #beta, #gamma, #delta, #epsilon {
+    display: inline-block;
+    height: 80px;
+    width: auto;
+}
+
+.five-desc {
+    color: #1f2937;
+    text-justify: center;
+    text-align: center;
+}
+
+#two, #four, #five {
+        padding-top:25px;
+    }
+
+#three {
+    padding-top: 17px;
+}
+
+
+.quotes {
+    height: 450px;
+    font-weight: 100vw;
+    background-color: #efe7eb;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    height: 360px;
+    justify-content: space-evenly;    
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    gap: 80px;
+ }
+
+.a-quote {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    background-color: inherit;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 50%;
+    height: auto;
+}
+
+p .q-one-two {
+    word-wrap:break-word;
+}
+
+#quote-one, #quote-two, #quote-three {
+    display: flex;
+}
+
+.q-one-two {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100px;
+    height: 350px;
 }
