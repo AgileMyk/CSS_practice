@@ -1,3 +1,12 @@
+/**  {
+border: 1px solid black;
+}*/
+
+html {
+    width:100vw;
+    display: flex;
+}
+
 .header {
     width: 100vw;
     height: 450px;
@@ -37,10 +46,6 @@ a:hover, a:visited, a:link, a:active {
     text-decoration: none;
 }
 
-ul {
-
-}
-
 li {
     display: inline;
     align-items: center;
@@ -59,7 +64,6 @@ p {
 .p-n-img {
     /*width: 100vw;*/
     display: flex;
-   flex-direction: ;
     flex-direction: row;
     gap: 9em;
     margin-left: 8em
@@ -90,7 +94,6 @@ justify-content: flex-end;
 }
 
 button {
-    align-items: ;
     border: none;
 }
 
@@ -194,46 +197,105 @@ border-radius: 11px;
 
 .quotes {
     height: 450px;
-    font-weight: 100vw;
+    width: 100vw;
     background-color: #efe7eb;
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
     height: 360px;
-    justify-content: space-evenly;    
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    gap: 80px;
+    box-sizing: border-box;
+ }
+
+ .quotes div {
+     flex: 1 1 0%;
  }
 
 .a-quote {
     display: flex;
     flex-direction: row;
-    height: 70px;
+    box-sizing: border-box;
+    padding: 0px;
     background-color: inherit;
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    width: 50%;
     height: auto;
+    text-align: center;
+    text-justify: distribute;
+    word-wrap: break-word;
 }
 
-p .q-one-two {
-    word-wrap:break-word;
+#quote-a, #quote-b, #quote-c, #quote-d {
+    display: inline-block;
+    width: 300px;
+    color: #1f2937;
 }
 
-#quote-one, #quote-two, #quote-three {
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.button-box {
+    display: flex;
+    width: 100vw;
+    background-color: #FFFFFF;
+    height: 350px;
+}
+
+.light-blue {
+    display: flex;
+    width: inherit;
+    width: 75%;
+    margin: auto;
+    background-color: #3882f6;
+    height: 175px;
+    flex-direction: row;
+    gap: auto;
+    border-radius: 15px;
+}
+
+.light-left {
+    display: flex;
+    background-color: inherit;
+    flex: 2 1 0%;
+}
+
+.light-right {
+    display: flex;
+    background-color: inherit;
+    flex:1 1 0%;
+}
+
+/*#bot-button {
+    display: flex;
+}*/
+
+.copyright {
+    width: 100vw;
+    display: flex;
+    background-color: #1f2937;
+    height: 80px;
     display: flex;
 }
 
-.q-one-two {
+.c-para {
+    padding-top: 20px;
+    width: inherit;
+    width: 50%;
+    height: 40px;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 100px;
-    height: 350px;
+    background-color: inherit;
+    color: #efe7eb;
+    text-align: center;
 }
