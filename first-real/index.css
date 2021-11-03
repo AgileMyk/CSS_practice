@@ -251,6 +251,7 @@ footer {
 }
 
 .light-blue {
+    border-radius: 15px;
     display: flex;
     width: inherit;
     width: 75%;
@@ -266,12 +267,29 @@ footer {
     display: flex;
     background-color: inherit;
     flex: 2 1 0%;
+    flex-direction: column;
+    margin-left: 4%;
+    border-radius: inherit;
+}
+
+.h3-bot {
+display: flex;
+height: 30px;
+color:white;
+margin-left: 4%;
+}
+
+.p-bot {
+    display: flex;
+    height: 155px;
+    margin-top: 2.5%;
 }
 
 .light-right {
     display: flex;
     background-color: inherit;
     flex:1 1 0%;
+    border-radius: inherit;
 }
 
 /*#bot-button {
@@ -298,4 +316,16 @@ footer {
     background-color: inherit;
     color: #efe7eb;
     text-align: center;
+}
+
+#bot-button {
+    width: 100px;
+    margin: auto;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    background-color: #3882f6;
+    padding: 2px 8px 2px 8px;
+    font-weight: 200;
 }
