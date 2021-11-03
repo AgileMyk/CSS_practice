@@ -15,14 +15,45 @@ html {
     flex-direction: column;
 }
 
+.logo-letters {
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+padding: 3%;
+}
+
+.line-one {
+font-size: 18px;
+font-weight: 700;
+letter-spacing: .55em;
+text-justify: auto;
+text-align: center;
+margin-top: 5%;
+opacity: 100%;
+color:white;
+}
+
+.line-two {
+font-size: 18px;
+font-weight: 700;
+letter-spacing: .35em;
+text-justify: auto;
+text-align: center;
+margin-bottom: 5%;
+opacity: 100%;
+color: white;
+}
+
 #logo {
-    display: flex;
+    display: inline-flex;
     justify-content: flex-start;
+    box-sizing: border-box;
     opacity: 40%;
     height: 100px;
+    width: 80px;
     width: auto;
     margin-left: 8em;
-
+    background-image: url("./img/logoA.jpg");
 }
 
 .top-nav {
@@ -101,6 +132,8 @@ button {
     background-color: #3882f6;
     color: #FFFFFF;
     border-radius: 10px;
+    text-align: center;
+    padding: 1%;
 }
 
 .call   {
@@ -326,6 +359,7 @@ margin-left: 4%;
     border: 2px solid white;
     color: white;
     background-color: #3882f6;
-    padding: 2px 8px 2px 8px;
     font-weight: 200;
+    text-align: center;
+    padding: 5px 0px 0px;
 }
